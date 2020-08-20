@@ -1,6 +1,7 @@
 
 
-# Tasty Food Com!!!
+# Tasty.com 
+## The place where the foodie's go
 
 ### `npm run start`
 
