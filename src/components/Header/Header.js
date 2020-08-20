@@ -20,7 +20,7 @@ const Header = () => {
           <div>
             <h1 className="headerText"> One Place to Find the Tastiest Food</h1>
           </div>
-          <p><a className="mainButton" >Search Recipes</a></p>
+          <p><a className="mainButton" href="https://tastyfoodwebsite.netlify.app/">Search Recipes</a></p>
         </div>
       </div>
     </section>
