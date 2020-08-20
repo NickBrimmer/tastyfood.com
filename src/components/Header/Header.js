@@ -10,7 +10,7 @@ const Header = () => {
           <li><a href="#featured" >Featured</a></li>
           <li><a href="#cuisines" >Cuisines</a></li>
           <li><a href="#about" >About</a></li>
-          <li><a href="#" >Seasonal</a></li>
+          <li><a href="#seasonal" >Seasonal</a></li>
         </ul>
       </div>
       <div className="logoBox">
@@ -20,7 +20,7 @@ const Header = () => {
           <div>
             <h1 className="headerText"> One Place to Find the Tastiest Food</h1>
           </div>
-          <p><a className="mainButton" href="#">Search Recipes</a></p>
+          <p><a className="mainButton" >Search Recipes</a></p>
         </div>
       </div>
     </section>
