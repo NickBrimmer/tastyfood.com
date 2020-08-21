@@ -17,25 +17,25 @@ const Cuisines = () => {
       <ul className="cuisineShowcase">
         <li>
           <div className="cuisinePhoto">
-            <img className="photo" src={italianFood} />
+            <img className="photo" alt="Cuisine Image" src={italianFood} />
             <div className="cuisineText"></div>
           </div>
         </li>
         <li>
           <div className="cuisinePhoto">
-            <img className="photo" src={appleSalad} />
+            <img className="photo" alt="Cuisine Image" src={appleSalad} />
             <div className="cuisineText"></div>
           </div>
         </li>
         <li>
           <div className="cuisinePhoto">
-            <img className="photo" src={steak} />
+            <img className="photo" alt="Cuisine Image" src={steak} />
             <div className="cuisineText"></div>
           </div>
         </li>
         <li>
           <div className="cuisinePhoto">
-            <img className="photo" src={pasta} />
+            <img className="photo" alt="Cuisine Image" src={pasta} />
             <div className="cuisineText"></div>
           </div>
         </li>
@@ -43,25 +43,25 @@ const Cuisines = () => {
       <ul className="cuisineShowcase">
         <li>
           <div className="cuisinePhoto">
-            <img className="photo" src={vegetarian} />
+            <img className="photo" alt="Cuisine Image" src={vegetarian} />
             <div className="cuisineText"></div>
           </div>
         </li>
         <li>
           <div className="cuisinePhoto">
-            <img className="photo" src={pear} />
+            <img className="photo" alt="Cuisine Image" src={pear} />
             <div className="cuisineText"></div>
           </div>
         </li>
         <li>
           <div className="cuisinePhoto">
-            <img className="photo" src={breakfast} />
+            <img className="photo" alt="Cuisine Image" src={breakfast} />
             <div className="cuisineText"></div>
           </div>
         </li>
         <li>
           <div className="cuisinePhoto">
-            <img className="photo" src={vegetarian1} />
+            <img className="photo" alt="Cuisine Image" src={vegetarian1} />
             <div className="cuisineText"></div>
           </div>
         </li>
