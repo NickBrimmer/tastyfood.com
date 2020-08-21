@@ -20,7 +20,7 @@ const Featured = () => {
 
           </div>
           <div class="card__img"></div>
-          <a href="#" class="card_link">
+          <a href="#featured" class="card_link">
             <div class="card__img--hover"></div>
           </a>
           <div class="card__info">
@@ -42,7 +42,7 @@ const Featured = () => {
 
           </div>
           <div class="card__img"></div>
-          <a href="#" class="card_link">
+          <a href="#featured" class="card_link">
             <div class="card__img--hover"></div>
           </a>
           <div class="card__info">
@@ -64,7 +64,7 @@ const Featured = () => {
 
           </div>
           <div class="card__img"></div>
-          <a href="#" class="card_link">
+          <a href="#featured" class="card_link">
             <div class="card__img--hover"></div>
           </a>
           <div class="card__info">
