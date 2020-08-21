@@ -1,0 +1,45 @@
+.clearfix {zoom: 1}
+.clearfix::after {
+  content: '.';
+  clear: both;
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+
+.aboutSection {
+  margin-top: 10vh;
+  padding: 6vw 8vw;
+  text-align: center;
+}
+
+.aboutSection .aboutText {
+  font-family: 'Old Standard TT', serif;
+  font-size: 4vw;
+  border-bottom: 1px solid black;
+  padding: 40px 0 30px 0;
+  }
+
+  .aboutSection .aboutBeginning {
+    padding-top: 6vh;
+    font-family: 'Old Standard TT', serif;
+    font-weight: 100;
+    font-size: 3vw;
+    padding-left: 3vw;
+    color: #ACB94F;
+  }
+
+  .aboutSection .aboutExplanation {
+    padding-top: 6vh;
+    font-family: 'Old Standard TT', serif;
+    font-weight: 100;
+    font-size: 2vw;
+    padding-left: 3vw;
+    color: black;
+  }
+
+  .whyImage {
+    width: 50%;
+    margin-top: 3em;
+  }
+  
