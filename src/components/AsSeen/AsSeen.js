@@ -8,9 +8,9 @@ const AsSeen = () => {
 
   return (
     <section className="asSeenSection">
-        <img className="asSeenImage" src={asSeen1} />
-        <img className="asSeenImage" src={asSeen2} />
-        <img className="asSeenImage" src={asSeen3} />
+      <img className="asSeenImage" alt="as seen on magazine" src={asSeen1} />
+      <img className="asSeenImage" alt="as seen on television" src={asSeen2} />
+      <img className="asSeenImage" alt="as seen on wherever" src={asSeen3} />
     </section>
   )
 };
