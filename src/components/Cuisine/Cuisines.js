@@ -1,5 +1,4 @@
 import React from 'react';
-import styles from './Cuisines.css';
 import italianFood from '../../assets/italian.jpg'
 import pasta from '../../assets/pasta.jpg'
 import appleSalad from '../../assets/something.jpg'
@@ -12,57 +11,57 @@ import pear from '../../assets/stuff.jpg'
 const Cuisines = () => {
 
   return (
-    <section id="cuisines" className={styles.cuisineSection}>
+    <section id="cuisines" className="cuisineSection">
 
-      <ul className={styles.cuisineShowcase}>
+      <ul className="cuisineShowcase">
         <li>
-          <div className={styles.cuisinePhoto}>
-            <img src={italianFood} />
-            <div className={styles.cuisineText}></div>
+          <div className="cuisinePhoto">
+            <img className="photo" alt="italian meal" src={italianFood} />
+            <div className="cuisineText"></div>
           </div>
         </li>
         <li>
-          <div className={styles.cuisinePhoto}>
-            <img src={appleSalad} />
-            <div className={styles.cuisineText}></div>
+          <div className="cuisinePhoto">
+            <img className="photo" alt="apple salad" src={appleSalad} />
+            <div className="cuisineText"></div>
           </div>
         </li>
         <li>
-          <div className={styles.cuisinePhoto}>
-            <img src={steak} />
-            <div className={styles.cuisineText}></div>
+          <div className="cuisinePhoto">
+            <img className="photo" alt="steak dinner" src={steak} />
+            <div className="cuisineText"></div>
           </div>
         </li>
         <li>
-          <div className={styles.cuisinePhoto}>
-            <img src={pasta} />
-            <div className={styles.cuisineText}></div>
+          <div className="cuisinePhoto">
+            <img className="photo" alt="pasta pasta" src={pasta} />
+            <div className="cuisineText"></div>
           </div>
         </li>
       </ul>
-      <ul className={styles.cuisineShowcase}>
+      <ul className="cuisineShowcase">
         <li>
-          <div className={styles.cuisinePhoto}>
-            <img src={vegetarian} />
-            <div className={styles.cuisineText}></div>
+          <div className="cuisinePhoto">
+            <img className="photo" alt="vegetarian dish numero uno" src={vegetarian} />
+            <div className="cuisineText"></div>
           </div>
         </li>
         <li>
-          <div className={styles.cuisinePhoto}>
-            <img src={pear} />
-            <div className={styles.cuisineText}></div>
+          <div className="cuisinePhoto">
+            <img className="photo" alt="pear pleasure" src={pear} />
+            <div className="cuisineText"></div>
           </div>
         </li>
         <li>
-          <div className={styles.cuisinePhoto}>
-            <img src={breakfast} />
-            <div className={styles.cuisineText}></div>
+          <div className="cuisinePhoto">
+            <img className="photo" alt="break with your breakfast" src={breakfast} />
+            <div className="cuisineText"></div>
           </div>
         </li>
         <li>
-          <div className={styles.cuisinePhoto}>
-            <img src={vegetarian1} />
-            <div className={styles.cuisineText}></div>
+          <div className="cuisinePhoto">
+            <img className="photo" alt="vegetarian if you want" src={vegetarian1} />
+            <div className="cuisineText"></div>
           </div>
         </li>
       </ul>

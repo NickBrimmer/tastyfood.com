@@ -1,0 +1,10 @@
+.asSeenSection {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10em;
+}
+
+.asSeenSection .asSeenImage {
+  margin-left: 5em;
+  margin-right: 5em;
+}
