@@ -1,4 +1,5 @@
 import React from 'react';
+import './Cuisines.css';
 import italianFood from '../../assets/italian.jpg'
 import pasta from '../../assets/pasta.jpg'
 import appleSalad from '../../assets/something.jpg'
